@@ -8,7 +8,7 @@
 	"danceEvery": 1,
 	"applyStageMatrix": false,
 	"scale": 1,
-	"name": "DD (Overconfident)",
+	"name": "DD (Wearing Out)",
 	"cameraOffsets": [
 		0,
 		0
@@ -18,88 +18,88 @@
 	"isPixel": false,
 	"singTime": 8,
 	"healthIcon": {
+		"isPixel": false,
 		"offsets": [
 			0,
 			0
 		],
+		"scale": 1,
 		"id": "DD",
-		"flipX": false,
-		"isPixel": false,
-		"scale": 1
+		"flipX": false
 	},
-	"assetPath": "characters/DD-Overconfident",
+	"assetPath": "characters/DD-WearingOut",
 	"atlasSettings": {
+		"swfMode": true,
 		"applyStageMatrix": false,
 		"useRenderTexture": false,
 		"filterQuality": 1,
-		"cacheOnLoad": false,
-		"swfMode": true
+		"cacheOnLoad": false
 	},
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "idle",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "idle",
 			"looped": false,
-			"name": "idle"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				5,
+				0,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "singLEFT",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singLEFT",
 			"looped": false,
-			"name": "singLEFT"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				10,
-				0
+				-5,
+				-5
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "singDOWN",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singDOWN",
 			"looped": false,
-			"name": "singDOWN"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "singUP",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singUP",
 			"looped": false,
-			"name": "singUP"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				0,
+				-5,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "singRIGHT",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singRIGHT",
 			"looped": false,
-			"name": "singRIGHT"
+			"flipX": false,
+			"animType": "framelabel"
 		}
 	]
 }
