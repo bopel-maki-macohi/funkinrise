@@ -60,7 +60,20 @@
 			"animType": "framelabel",
 			"flipX": false,
 			"looped": false,
-			"name": "sad"
+			"name": "cry"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "sad",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "drop10"
 		},
 		{
 			"flipY": false,
