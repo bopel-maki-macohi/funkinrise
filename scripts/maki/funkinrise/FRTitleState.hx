@@ -35,7 +35,7 @@ class FRTitleState extends Module
 					replaceTitle();
 
 					FlxG.state.insert(FlxG.state.members.indexOf(FlxG.state.credGroup), stage);
-					FlxG.state.insert(FlxG.state.members.indexOf(stage), boy);
+					FlxG.state.insert(FlxG.state.members.indexOf(stage) + 1, boy);
 					FlxG.state.insert(FlxG.state.members.indexOf(boy), lightBack);
 					FlxG.state.insert(FlxG.state.members.indexOf(lightBack), logo);
 				});
